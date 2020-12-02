@@ -1,0 +1,174 @@
+<html class="responsive">
+
+<link href="indexcss.css" rel="stylesheet">
+   
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<link rel="icon" href="logo.png" type="image/icon type">
+<title>Awesome Hotels</title>
+</head>
+
+
+
+
+
+
+
+
+<body>
+
+<div class="topnav" id="myTopnav">
+	<img id="logocss" src="logo.png"  width="100" height="50">	
+	<a href="#experience" >Experience</a>
+	<a href="#hotels">Hotels</a>
+	<a href="#about">About</a>
+	<a href="#home" class="active">Home</a>
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-bars"></i>
+	</a>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="hero-image">
+	<div class="hero-text">
+	
+		<h1 style="font-size:6vw;" >Awesome Hotels</h1>
+		
+		<p style="font-size:4vw;">Awesome Views,Awesome Hotels</p>
+		</div>
+	</div>
+
+
+		
+
+<div id="bar">
+<input type="text" name="location" id="location" list="places" placeholder="Location">
+
+<datalist id="places">
+	<option value="London">Greater London,United Kingdom</option>
+	<option value="Dubai ">Dubai Emirates, United Arab Emirates</option>
+	<option value="New York ">New York State, United States</option>
+	
+	<option value="lorem ipsum">Greater London,United Kingdom</option>
+		<option value="lorem ipsum ">Dubai Emirates, United Arab Emirates</option>
+		<option value="lorem ipsum ">New York State, United States</option>
+</datalist>	
+
+
+
+
+	<div id="adults1" class="custom-select" style="width:200px;">
+	<label for="adults"> </label>
+		Adults:
+		<select name="adults" id="adult">
+			<option value="0">0 Adults</option>
+			<option value="1">1 Adult</option>
+			<option value="2">2 Adults</option>
+			<option value="3">3 Adults</option>
+			<option value="4">4 Adults</option>
+		
+		</select>
+		</div>
+		
+		<div id="children1" class="custom-select" style="width:200px;">
+	Children:
+			<select name="childrens" id="children">
+				<option value="0">0 Children</option>
+				<option value="1">1 Child</option>
+				<option value="2">2 Children</option>
+				<option value="3">3 Children</option>
+				<option value="4">4 Children</option>
+				
+			</select>
+			</div>
+		<div id="rooms1" class="custom-select" style="width:200px;">
+		Rooms:
+				<select name="rooms" id="room">
+					
+					<option value="1">1 Room</option>
+					<option value="2">2 Rooms</option>
+					<option value="3">3 Rooms</option>
+					<option value="4">4 Rooms</option>
+					
+				</select>
+				</div>
+			
+	<div id="checks">
+	<p>
+		Check-In<input type="date"  name="checkin" placeholder="Check In" >
+		Check-Out<input type="date" id="txtDate1" name="checkout" placeholder="Check Out" >
+		</div>
+		
+		
+
+
+<div>
+<p>	<button  type="button" id="button1">Book Now</button>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<p>lorem ipsum</p>
+</body>
+
+
+
+
+<script>
+function myFunction() {
+	var x = document.getElementById("myLinks");
+	if (x.style.display === "block") {
+		x.style.display = "none";
+	} else {
+		x.style.display = "block";
+	}
+}
+</script>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="indexjs.js"></script>
+
+
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
